@@ -1,0 +1,7 @@
+frontend/
+backend/node_modules/
+backend/userController.js
+backend/.env
+backend/.DS_Store
+backend/models/otp.js
+backend/routes/server.js
