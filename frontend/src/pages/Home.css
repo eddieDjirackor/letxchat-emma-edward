@@ -1,0 +1,25 @@
+
+.home__bg {
+    background-image: url('../assets/partners.jpg');
+    height: 90vh;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.home-message-icon {
+    margin-left: 10px;
+    display: inline-block;
+}
+.XX{
+    color: #f88a2a;
+}
+#button-me{
+    background-color:#f88a2a ;
+    border-color: #f88a2a;
+    border-radius: 20px;
+
+}
+.hompage{
+    margin: 100px 200px;
+}

@@ -1,0 +1,14 @@
+button.btn.btn-primary{
+    margin-right:20px;
+    border-color: #f88a2a;
+    border-radius: 20px;
+}
+
+button.btn.btn-primary:hover{
+    background-color: darkgray;
+    border-color: darkgray;
+    border-radius: 20px;
+}
+button.btn.btn-danger{
+    border-radius: 20px;
+}

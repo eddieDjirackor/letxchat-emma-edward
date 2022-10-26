@@ -1,0 +1,20 @@
+#linking:hover {
+    background-color: #f88a2a;
+    border-radius: 20px;
+    color: white;
+}
+
+#button-me {
+    background-color: #f88a2a;
+    border-color: #f88a2a;
+    border-radius: 20px;
+}
+
+#button-me:hover {
+    background-color: darkgray;
+    border-color: darkgray;
+    border-radius: 20px;
+}
+a.dropdown-item:hover{
+    background-color: transparent;
+}
