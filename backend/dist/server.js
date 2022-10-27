@@ -33,10 +33,10 @@ app.use((0, cors_1.default)());
 app.use('/users', userRoutes_1.default);
 require('./connection');
 const server = require('http').createServer(app);
-const PORT = 5001;
+const PORT = process.env.PORT || 5001;
 const io = require('socket.io')(server, {
     cors: {
-        origin: 'http://localhost:3000',
+        origin: 'https://letxchat.herokuapp.com/',
         methods: ['GET', 'POST']
     }
 });
