@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // const mongoose = require('mongoose');
 const mongoose_1 = __importDefault(require("mongoose"));
 require('dotenv').config();
-mongoose_1.default.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PW}@cluster0.iqtyokk.mongodb.net/letxchat?retryWrites=true&w=majority`, () => {
+mongoose_1.default.connect(`mongodb+srv://letxchat:auQFt4ymnh3DsnSe@cluster0.iqtyokk.mongodb.net/letxchat?retryWrites=true&w=majority`, (v) => {
     console.log('connected to mongodb');
 });
 // mongoose.connect('mongodb://localhost/chatApp')
