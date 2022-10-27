@@ -1,4 +1,4 @@
-frontend/
+# frontend/
 backend/node_modules/
 backend/userController.js
 backend/.env
