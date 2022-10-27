@@ -3,8 +3,8 @@ import mongoose from 'mongoose';
 
 require('dotenv').config();
 
-mongoose.connect(`mongodb+srv://letxchat:auQFt4ymnh3DsnSe@cluster0.iqtyokk.mongodb.net/letxchat?retryWrites=true&w=majority`, (v)=> {
-  console.log('connected to mongodb', v)
+mongoose.connect(`mongodb+srv://letxchat:auQFt4ymnh3DsnSe@cluster0.iqtyokk.mongodb.net/letxchat?retryWrites=true&w=majority`, ()=> {
+  console.log('connected to mongodb')
 })
 
 // mongoose.connect('mongodb://localhost/chatApp')
